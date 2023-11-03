@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-                dialog.setNegativeButton("自訂義Toast", new DialogInterface.OnClickListener() {
+                dialog.setNegativeButton("自定義Toast", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         showToast();
